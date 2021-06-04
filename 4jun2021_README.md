@@ -1,4 +1,5 @@
 # AIWinpetition_Team2_icantfindaname.py
+Steps on How to Run the Code are below
 
 ## How the Code Works
 ### Initialising the variables
