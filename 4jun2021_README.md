@@ -19,3 +19,6 @@ after the time is up, it will finalise and type out the final story.
 the individual score of each player, whole group's score and winner will also be printed out. if it is a tie-breaker, it will show "Draw!".
 
 thats it!
+
+# How to operate the Never-Ending Story game?
+
