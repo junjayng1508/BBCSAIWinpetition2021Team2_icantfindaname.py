@@ -41,6 +41,15 @@ theme = random.choice(list(themes.keys()))
 #select a sentence from the dict
 sentence_selected = random.choice(list(themes[theme]))
 
+#set timer thread
+def countdown(t):
+    global gameRunning, timeLeft
+    while t > 0:
+        time.sleep(1)
+        timeLeft -= 1
+        t -= 1
+    gameRunning = False
+
 #get the number of players
 player_no = input("Number of players: ")
 player_names = []
@@ -59,16 +68,6 @@ for i in range(player_no):
     name = input(f"Player {i+1}'s name: ")
     player_names.append(name)
     scores.append(0)
-
-
-#set timer thread
-def countdown(t):
-    global gameRunning, timeLeft
-    while t > 0:
-        time.sleep(1)
-        timeLeft -= 1
-        t -= 1
-    gameRunning = False
 
 
 #set time
