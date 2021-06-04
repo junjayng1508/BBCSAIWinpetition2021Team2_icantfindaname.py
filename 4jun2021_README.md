@@ -59,7 +59,7 @@ thats it!
 
 
 # Requirements
-You need the "requests" library, adn you can download it using `pip install requests`
+You need the "requests" library, and you can download it using `pip install requests`
 
 # How to operate the Never-Ending Story game?
  1. Download the file.
