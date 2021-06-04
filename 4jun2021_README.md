@@ -27,6 +27,12 @@ It would then check if the timer is up, and do the necessary actions.
 When it ends, the game would tally up the scores of each player.
 It would then announce the winner, followed by the group's total score.
 
+### How the AI function works
+The AI function uses the requests library to send a GET request to "https://api.deepai.org/api/text-generator", with a API key, and the content as headers.
+The content would be the last 2 sentences that were typed, this way, the AI would be able to generate a answer that relates to the topic more.
+The response would then be converted into a json format.
+The code would then parse the json data, and return the first 2 lines, as the original text would be too long.
+It would then return the text, which would then be printed out.
 
 
 ## Summary
@@ -49,6 +55,7 @@ after the time is up, it will finalise and type out the final story.
 the individual score of each player, whole group's score and winner will also be printed out. if it is a tie-breaker, it will show "Draw!".
 
 thats it!
+
 
 # Requirements
 You need the "requests" library, adn you can download it using `pip install requests`
