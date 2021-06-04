@@ -21,4 +21,5 @@ the individual score of each player, whole group's score and winner will also be
 thats it!
 
 # How to operate the Never-Ending Story game?
-
+1. Download the file.
+2. Open your command line and install the required packages using "pip install -r requirements.txt"
