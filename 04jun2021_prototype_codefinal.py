@@ -49,6 +49,22 @@ def countdown(t):
         timeLeft -= 1
         t -= 1
     gameRunning = False
+    
+#get AI response
+def getAIresponse():
+    if len(sentences) > 1:
+        string = sentences[-2] + sentences[-1]
+    else:
+        string = sentences[-1]
+    r = requests.post(
+        "https://api.deepai.org/api/text-generator",
+        data={'text': string},
+        headers={'api-key': '8d73203a-4c9b-464d-8e8c-df5b0f6934a0'})
+    r = r.json()
+    if r['output'] == '':
+        return "Errr I don't know what to respond :|"
+    else:
+        return (r['output'].split('\n')[0])[len(string):]
 
 #get the number of players
 player_no = input("Number of players: ")
@@ -79,23 +95,6 @@ print(
     f"\nYou guys have {int(t/60)} minutes to come up with story :)\n"
 )
 print("Scores will be based on the number of words typed\n")
-
-
-#get AI response
-def getAIresponse():
-    if len(sentences) > 1:
-        string = sentences[-2] + sentences[-1]
-    else:
-        string = sentences[-1]
-    r = requests.post(
-        "https://api.deepai.org/api/text-generator",
-        data={'text': string},
-        headers={'api-key': '8d73203a-4c9b-464d-8e8c-df5b0f6934a0'})
-    r = r.json()
-    if r['output'] == '':
-        return "Errr I don't know what to respond :|"
-    else:
-        return (r['output'].split('\n')[0])[len(string):]
 
 
 #story time
