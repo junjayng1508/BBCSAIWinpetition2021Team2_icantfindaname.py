@@ -1,5 +1,35 @@
 # AIWinpetition_Team2_icantfindaname.py
 
+## How the Code Works
+### Initialising the variables
+It initialises the variables needed to operate the timer and calculate the score.
+It then randomly selects a theme using python's random module from a dictionary of themes and sentences.
+Then, it picks a sentence under the theme.
+After picking, it would define a timer function, which would then be Threaded later and used as a timer for the game.
+(In layman terms, it creates a timer, which would be started later)
+A function called getAIresponse(), which calls the API to generate sentences, would be initialised too.
+
+### Getting Players and Starting the Game
+User would then have to input the number of players. If the number of players are < 2, or is invalid, it will ask for a input again.
+A welcome message would then be shown, and the game would start after the player presses "Enter".
+When the player presses "Enter"
+The moment the player presses "Enter", it would start a Thread, which targets the timer function.
+(In layman terms, this starts the timer)
+
+### What Happens while the Game is Running?
+The code would loop forever till the timer is done.
+While the code is looping, it would ask all the players for a input to contribute to the story.
+Scores for each player would be added based on their word count.
+After each player has typed their sentences, an AI, which would be called via the function getAIresponse(), would contribute it's own ideas
+It would then check if the timer is up, and do the necessary actions.
+
+### When the Game Ends
+When it ends, the game would tally up the scores of each player.
+It would then announce the winner, followed by the group's total score.
+
+
+
+## Summary
 we created a variable and a countdown timer
 
 we also created a score counter stating each player's score at the end.
@@ -20,6 +50,10 @@ the individual score of each player, whole group's score and winner will also be
 
 thats it!
 
+# Requirements
+You need the "requests" library, adn you can download it using `pip install requests`
+
 # How to operate the Never-Ending Story game?
-1. Download the file.
-2. Open your command line and install the required packages using "pip install -r requirements.txt"
+ 1. Download the file.
+ 2. Install the necessary modules.
+ 3. Run the file and enjoy the game!
