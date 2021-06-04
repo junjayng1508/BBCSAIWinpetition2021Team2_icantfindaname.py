@@ -8,7 +8,7 @@ import requests
 #variables
 gameRunning = True
 sentences = []
-timeLeft = t = 30 * 1
+timeLeft = t = 60 * 10
 
 #player score
 #structure: [p1 score, p2 score, p3 score and so on...]
