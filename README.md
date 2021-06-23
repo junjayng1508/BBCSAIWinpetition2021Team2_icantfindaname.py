@@ -1,5 +1,5 @@
 # BBCSAIWinpetition2021_Team2_icantfindaname.py 
-## Topic: **Team Bonding**
+## Topic: Team Bonding
 Note: Steps on How to Run the Code are found near the bottom of the page.
 
 ## How the Code Works
