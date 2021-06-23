@@ -1,5 +1,6 @@
-# AIWinpetition_Team2_icantfindaname.py
-Note: Steps on How to Run the Code are near the bottom of the page.
+# BBCSAIWinpetition2021_Team2_icantfindaname.py 
+## Topic: **Team Bonding**
+Note: Steps on How to Run the Code are found near the bottom of the page.
 
 ## How the Code Works
 ### Initialising the variables
