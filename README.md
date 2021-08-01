@@ -63,6 +63,6 @@ thats it!
 You need the "requests" library, and you can download it using `pip install requests`
 
 # How to operate the Never-Ending Story game?
- 1. Download the file.
- 2. Install the necessary modules.
- 3. Run the file and enjoy the game!
+ 1. Download the **[file here](https://github.com/junjayng1508/BBCSAIWinpetition2021Team2_icantfindaname.py/blob/main/prototype_codefinal.py)** (our final product).
+ 2. Install the necessary modules. Read more about them **[here](https://github.com/junjayng1508/BBCSAIWinpetition2021Team2_icantfindaname.py/blob/main/REQUIREMENTS.md)**!
+ 3. Run the file and enjoy the game! Have fun!
