@@ -75,6 +75,6 @@ py -3 -m pip install -U requests
 ```
 
 ### How to operate the Never-ending Story game?
-1. Download the final product [here]().
+1. Download the final product [here](https://github.com/junjayng1508/bbcs-AIWinpetition2021-team2/blob/master/prototype/final.py).
 2. Install the necessary modules by reading the guide above this sub-section.
 3. Run the file and enjoy the game. Have fun!
